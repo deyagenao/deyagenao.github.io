@@ -1,0 +1,319 @@
+/* General Formatting */
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Header Image */
+.header-img {
+    position: relative;
+    max-height: 780px;
+    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    background-color: #1B1B1B;
+}
+
+#header-image {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-height: 800px;
+}
+#header-text {
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    transform: skewY(1deg);
+}
+
+#header-text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header-text h4 {
+    font-size: 4.5vw;
+}
+
+#header-text h6 {
+    font-size: 2.25vw;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Nav Bar */
+nav {
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    padding: 20px 15px 20px 10px;
+    background-color: #1B1B1B;
+    opacity: 0.96;
+    border-bottom: 4px solid;
+    border-bottom-color: #E59890;
+    z-index: 3;
+}
+
+nav div, nav li, nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+nav li {
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #E59890;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* General formatting for informational sections */
+.container {
+    height: auto;
+    min-height: 760px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* About Me Section */
+
+#about-blurb {
+    padding-left: 20px;
+}
+
+#about-text {
+    float: left;
+    width: 60%;
+    /* padding-top: 20px; */
+    line-height: 26px;
+}
+
+#about-blurb h4 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    margin: 20px 15px 30px 0px;
+}
+
+#about-blurb h6 {
+    margin: 30px 0px 15px;
+    font-weight: 900;
+ }
+
+#about-blurb p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+ul {
+    list-style-image: url("../images/list-bullet.png");
+    list-style: 10px;
+    margin-left: 40px;
+}
+
+#front-end-list {
+    float: left;
+    margin-right: 100px;
+}
+
+#portfolio-photo {
+    height: 275px;
+    border-radius: 50%;
+    margin: 25px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+#resume{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    float: none;
+}
+
+#resume-btn{
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid grey;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;    
+}
+
+#resume-btn:hover{
+    background-color: #E59890;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Projects Section */
+#projects {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.project {
+    background-color: rgb(203, 197, 197);
+    width: 300px;
+    height: 325px;
+    margin: 15px;
+    position: relative;
+}
+
+.project img {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.project img:hover {
+    opacity: 15%;
+}
+
+.project-description {
+    /* display: none; */
+    position: absolute;
+    bottom: 0px;
+    line-height: 30px;
+    opacity: 0.0;
+}
+
+.project-description:hover{
+    opacity: 1.0
+}
+
+.project-description h5 {
+    font-size: 28px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    color: #E59890
+}
+
+#contact-form {
+    padding-top: 20px;   
+}
+
+form input, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+form input {
+    height: 30px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+button {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: #E59890;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* textarea:focus {
+    border: 10px;
+    border-color: #E59890;
+} */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B1B1B;
+    color: #ffffff;
+}
+
+footer a {
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    line-height: 70px;
+}
+
+footer a:hover{
+    color: #E59890;
+    font-size: 55px;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Responsive Elements */
+@media screen and (max-width: 915px) {
+    #about-blurb{
+        width: 80%;
+        max-width: 780;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #portfolio-photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
