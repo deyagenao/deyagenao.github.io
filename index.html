@@ -1,39 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Deyanira Genao</title>
-
-    <!-- link to google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-
-    <!-- link to font awesome -->
-    <script src="https://kit.fontawesome.com/02cf999969.js" crossorigin="anonymous"></script>
-
-    <!-- link to CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deya the Developer</title>
+  <link rel="icon" type="image/png" href="assets/images/bear_favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <!-- Website currently under construction -->
-    <div class="main-section">
-        <h2 class="name">Deyanira Genao</h2>
-        <h1>Under Construction</h1>
-        <h2>New site coming soon.</h2> 
-
-
-        <div class="contact">
-            <a href="https://github.com/deyagenao" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/deyanira-genao-3783b518a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto:deyagenao@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <a href="https://deyaniragenao.com"><img src="assets/images/logo_transparent.png" alt=""></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- Menu Bars -->
+        <div class="menu-bars" id="menu-bars" aria-label="toggle navigation" style="display:none;">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
+      </nav>
     </div>
+  </header>
+
+  <!-- Main Content -->
+  <section id="home" class="home container">
+    <div class="content">
+      <p class="home-text">Welcome! My name is </p>
+      <h1 class="home-title">Deyanira (aka Deya) Genao.</h1>
+      <h2 class="home-subtitle">I am a full stack developer. I build web-based applications.</h2>
+      <a href="#about" class="btn home-btn">Want to know more?</a>
+    </div>
+    
+  </section>
+
+  <section id="about" class="container">
+    <div class="content">
+      <h2 class="section-heading">About Me</h2>
+      <div class="flex-content">
+        <div class="about-text">
+          <p>Immediately after graduating from Columbia University, I began teaching at a school in the Bronx, in a community a few neighborhoods away from where I grew up. In my 7 years as a teacher, I collaborated with teams, mentored other teachers, researched best educational practices, consulted curriculums, and analyzed student data - all to design lessons that would meet our students’ needs. 
+           <br><br> 
+          During this time, I repeatedly depended on technology to save the day – whether it was to engage students, improve accessibility to the learning material, or to improve communication with my colleagues or student families. I became passionate about integrating technology. The more I used these tools with others, I began to realize that I too could create these applications. 
+          <br><br>
+          I first earned a certificate in web development from Columbia University, where I used HTML, CSS, and JavaScript on the front-end. I have also used NodeJS, Express, SQL and MongoDB to build servers and RESTful APIs. In October 2022, I earned my full stack Java certification as from Per Scholas, where I built full stack apps using Spring. Now, I aim to use these technical skills to build applications that transform the lives of their users.</p>
+        </div>
+        <div class="about-img">
+          <img src="assets/images/about-pic.jpg" alt="Photo of Deya Genao">
+        </div>
+      </div>
+      <a href="https://drive.google.com/file/d/1_QsrRapHPMWIzdPMjw1xCRNHIWYctvel/view?usp=sharing" class="btn" target="_blank">View My Resume</a>
+    </div>
+  </section>
+  <section id="projects" class="container">
+    <div class="content">
+      <h2 class="section-heading">Projects</h2>
+      <div class="projects-container">
+        <div class="project">
+          <div class="project-img">
+            <a href="https://github.com/deyagenao/AffordIt"><img src="assets/images/AffordItThumbnail.png" alt="Screenshot of Afford It Application"></a>
+          </div>
+          <div class="project-text">
+            <h3 class="project-heading">
+              <a href="https://github.com/deyagenao/AffordIt">Afford It</a>
+            </h3>
+            <p class="project-desc">
+              Afford It is a financial planner for organizing monthly expenses and income. Users can create shared accounts to manage their budgets with loved ones, friends, or roommates. Users can also track discretionary or "wishlist" purchases.
+              <br>
+              Per Scholas Case Study Project - built in 1.5 weeks 
+              <br><br>
+              Technologies: Java, Spring Boot(Spring Web, Security, Data JPA), MariaDB, Thymeleaf, HTML/ CSS/ JavaScript
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-text">
+            <h3 class="project-heading">
+              <a href="https://github.com/deyagenao/fake-fashion">Fake Fashion (In Progress)</a>
+            </h3>
+            <p class="project-desc">
+              Fake Fashion began as a simple front end project for a bootcamp assignment. I am currently expanding it to become a practice ecommerce site with Java/ Springboot on the backend. 
+              <br>
+              In Progress
+              <br><br>
+              Technologies: Java, Spring Boot(Spring Web, Security, Data JPA), MariaDB, Thymeleaf, HTML/ CSS/ JavaScript
+            </p>
+          </div>
+          <div class="project-img">
+            <a href="https://github.com/deyagenao/fake-fashion"><img src="assets/images/Fake_Fashion.png" alt="Screenshot of Fake Fashion App"></a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-img">
+            <a href="https://github.com/deyagenao/trivia-game"><img src="assets/images/GOT_Trivia.png" alt="Screenshot of Game of Thrones Trivia App"></a>
+          </div>
+          <div class="project-text">
+            <h3 class="project-heading">
+              <a href="https://github.com/deyagenao/trivia-game">GOT Trivia</a>
+            </h3>
+            <p class="project-desc">
+              Game of Thrones Trivia is a frontend app I created when first learning web development. Test your skills! 
+              <br>
+              Columbia Web Dev Bootcamp - built in 1 week
+              <br><br>
+              Technologies: HTML, CSS, JavaScript, JQuery 
+            </p>
+          </div>
+        </div>
+        <h3 class="github-link"><a href="https://github.com/deyagenao">View More On Github</a></h3>
+      </div>
+    </div>  
+    
+  </section>
+  <section id="contact" class="container">
+    <div class="content">
+      <h2 class="section-heading">Let's Connect</h2>
+      <div class="contact-links">
+        <a href="https://github.com/deyagenao" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deyanira-genao/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:deyagenao@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+    </div>
+    </div> 
+  </section>
+  <footer>
+    <p>&copy; Deyanira Genao 2022</p>
+  </footer>
 </body>
 </html>

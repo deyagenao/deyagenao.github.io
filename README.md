@@ -1,4 +1,4 @@
 # deyagenao.github.io
 Landing Page for All Github Repositories 
 
-### Currently under construction. Will be live again soon.
+Website design inspired by: (Brittany Chiang)[https://brittanychiang.com/]
