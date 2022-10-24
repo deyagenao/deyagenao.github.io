@@ -1,4 +1,6 @@
-# deyagenao.github.io
+# deyaniragenao.com
 Landing Page for All Github Repositories 
 
-Website design inspired by: (Brittany Chiang)[https://brittanychiang.com/]
+[View Live Site](https://deyaniragenao.com)
+
+Website design inspired by: [Brittany Chiang](https://brittanychiang.com/)
