@@ -222,3 +222,41 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+
+
+/* MOBILE */ 
+/* hide nav, convert multi columns into single columns  */ 
+@media (max-width: 480px){
+  nav{
+    display: none;
+  }
+  .content{
+    padding: 2em 1em;
+  }
+  .flex-content, .project{
+    flex-direction: column;
+  }
+  .about-text{
+    order: 2;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .about-img, .project-img {
+    order: 1;
+  }
+  .project{
+    padding: 1em 0;
+  }
+  .project-text{
+    order: 2;
+    margin: 1em 0;
+  }
+  .project-heading{
+    margin-bottom: 0.5em;
+  }
+  .project-heading a, .github-link a{
+    color: var(--clr-accent-primary);
+  }
+}
